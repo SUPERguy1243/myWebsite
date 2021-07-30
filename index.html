@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multi-Page Website</title>
+<!--Addition 1-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<body>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="location.html">About</a></li>
+</ul>
+<div class="container">
+
+<!--one-->
+<div class="animatedDiv"
+	 data-aos="fade-up"
+	 data-aos-easing="linear"
+     data-aos-duration="1500"
+	 data-aos-delay="300">
+<h2>Free Wallpapers</h2>
+<p>These are free images you can use without getting copywrite</p>
+<img src="image.png" width="800" height="400"/>
+</div>
+<br><br>
+<!--two-->
+<div class="animatedDiv"
+	 data-aos="zoom-in"
+	 data-aos-easing="linear"
+     data-aos-duration="1500"
+	 data-aos-delay="300">
+<img src="image2.png" width="800" height="400"/>
+</div>
+<br><br>
+<!--three-->
+<div class="animatedDiv"
+	 data-aos="fade-right"
+	 data-aos-easing="linear"
+     data-aos-duration="1500"
+	 data-aos-delay="300">
+<img src="image3.png" width="800" height="400"/>
+</div>
+<script src="code.js"></script>
+<!--Addition 2-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--Addition 3-->
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
